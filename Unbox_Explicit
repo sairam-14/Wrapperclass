@@ -1,0 +1,15 @@
+
+public class Unbox_Explicit {
+
+	public static void main(String[] args) {
+
+		Integer i=10;
+		int a=i.intValue();
+		Double d=2.0;
+		double b =d.doubleValue();
+		
+		System.out.println(i+"->premittive:"+a);
+		System.out.println(d+"->premittive:"+b);
+	}
+
+}
