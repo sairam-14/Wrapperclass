@@ -1,0 +1,19 @@
+
+public class Autobox_Explicit {
+
+	public static void main(String[] args) {
+
+		int a=20;
+		double b=2.567;
+		float c=2.0f;
+		Integer a1 = Integer.valueOf(a);
+		Double b1 =Double.valueOf(b);
+		Float c1=Float.valueOf(c);
+		
+		System.out.println(a+"Non_premittive->"+a1);
+		System.out.println(b+"Non_premittive->"+b1);
+		System.out.println(c+"Non_premittive->"+c1);
+		
+	}
+
+}
