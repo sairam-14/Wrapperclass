@@ -1,0 +1,14 @@
+
+public class Unboxing_Implict {
+
+	public static void main(String[] args) {
+
+		Integer i=10;
+		int a=i;
+		Double d=2.0;
+		double d1=d;
+		System.out.println(i+"Premittive->"+a);
+		System.out.println(d+"premittive->"+d1);
+	}
+
+}
